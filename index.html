@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anime and Cartoon Giphy Search</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">Anime &amp; Cartoon Giphy Search</span>
+    <form class="form-inline my-2 my-lg-0" id="Search">
+            <label for="Input" id="instructions">Search to see the magic happen</label>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Input">
+            <button class="btn btn-outline-info" type="submit" id="addTopic">Search</button>
+          </form>
+        </div>
+</nav>
+
+<div class="container">
+        <div class="row">
+            <div class="btn-group inline pull-left">
+      <button class="btn btn-light" id="topic" data-search="dragon ball z">Dragon Ball Z</button>
+      <button class="btn btn-light" id="topic" data-search="pokemon">Pokemon</button>
+      <button class="btn btn-light" id="topic" data-search="spongebob">Spongebob</button>
+      <button class="btn btn-light" id="topic" data-search="family guy">Family Guy</button>
+
+      <div id="myButtons"></div>
+    </div>
+  </div>
+</div>
+    
+
+<div class="container">
+    <div class="row">
+      <span><div id="gifArea"></div></span>
+  </div>
+</div>
+
+<div class="push"></div>
+</div>
+
+<footer>
+  <div id="footer_text">&copy; Copyright 2018 sYoeung</div>
+</footer>
+
+
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>
